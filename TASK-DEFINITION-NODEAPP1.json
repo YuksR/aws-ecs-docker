@@ -1,7 +1,7 @@
 {
   "family": "your-task-family",
   "executionRoleArn": "arn:aws:iam::745687159599:role/ecsTaskExecutionRole",
-  "networkMode": "default",
+  "networkMode": "bridge",
   "containerDefinitions": [
     {
       "name": "nodejs",
